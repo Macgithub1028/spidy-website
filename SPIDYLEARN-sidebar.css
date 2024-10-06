@@ -1,0 +1,26 @@
+.side-bar{
+    background-color: white;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    top: 110px;
+    width: 120px;
+    border-right: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+}
+.side-bar #home-icon{
+    width: 35px;
+    margin-top: 90px;
+    margin-bottom: 50px;  
+}
+.side-bar #save-icon{
+    width: 35px;
+    margin-bottom: 50px;  
+}
+.side-bar #subscription-icon{
+    width: 35px;
+    margin-bottom: 50px;
+}

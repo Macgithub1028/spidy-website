@@ -1,0 +1,87 @@
+.header-content{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    height: 110px;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: white;
+}
+.left-section{
+    width: 250px;
+    align-items: center;
+}
+.left-section>#hamburger-menu{
+    width: 35px;
+    margin-left: 40px;
+    margin-bottom: 30px;
+}
+.left-section>#web-logo{
+    margin-top: 15px;
+    margin-left: 40px;
+    border-radius: 16px;
+}
+.middle-section{
+    width: 700px;
+    align-items: center;
+}
+.middle-section>#search-bar{
+    flex: 1;
+    margin-top: 26px;
+    margin-left: 30px;
+    margin-bottom: 24px;
+    width: 400px;
+    font-family: "BenchNine","Bebas Neue";
+    font-size: 17px;
+    padding: 10.49px;
+    border-top-left-radius: 200px;
+    border-bottom-left-radius: 200px;
+    border: 1px solid slategray;
+}
+.middle-section>#search-icon{
+    margin-top: 26px;
+    margin-left: 0px;
+    width: 25px;
+    background-color: white;
+    vertical-align: top;
+    padding: 10.25px;
+    border-top-right-radius: 12.5px;
+    border-bottom-right-radius: 12.5px;
+    color: slategray;
+}
+.middle-section>#mini-mic-icon{
+    margin-left: 50px;
+    margin-top: 30px;
+    vertical-align: top;
+}
+.right-section{
+    width: 350px;
+    align-items: center;
+}
+.right-section>#camera-video-icon{
+    margin-left: 30px;
+    margin-top: 35px;
+    width: 30px;
+    vertical-align: top;
+}
+.right-section>#notification-bell-icon{
+    margin-left: 30px;
+    margin-top: 35px;
+    width: 30px;
+    vertical-align: top;
+}
+.right-section>#squared-menu-icon{
+    margin-left: 30px;
+    margin-top: 35px;
+    width: 30px;
+    vertical-align: top;
+}
+.right-section>#channel-picture{
+    margin-left: 30px;
+    margin-top: 15px;
+    border-radius: 34px;
+}
